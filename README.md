@@ -30,7 +30,7 @@ Information is all around but not accessed by all. Brilliance is evenly distribu
 This is how you can install this project on your local machine, computer or just environment.
 
 1. First, clone the repository to your local machine:
-    git clone [my_git](https://github.com/dianajoan/weather_app.git)
+    git clone `https://github.com/dianajoan/weather_app.git`
 
 2. Create the database:
     python manage.py migrate
