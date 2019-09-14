@@ -4,7 +4,8 @@
     <title>
         WEATHER API | Diana Joanita
     </title>
-<LINK REL="stylesheet" HREF="{% static 'css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'img/favicon.ico' %}">
 <style>
     
 .aa{
@@ -13,11 +14,11 @@
 </style>
 </head>
 
-<body>
-<div class="text-success fixed-top ">
+<body style="background-color: #03A9F4;">
+<div class="text-success fixed-top" style="font-size: 16px; margin: 5px;">
     Contact me :<a class="text-white" href="mailto:dianajoanita900@gmail.com/"> Diana Joanita Nakyazze </a>
 </div>
-<div class="bg bg-dark text-success text-center ">
+<div class="bg bg-dark text-success text-center " style="font-size: 16px;">
     <form method='POST'>
         {{ form }}
         {% csrf_token %}
@@ -29,7 +30,7 @@
 
     <div class="card rounded col-3 justify-content-center rounded shadow aa m-2">
         <div class="card-title text-info shadow bg-dark "><h1>{{ city_w.city }}<h1></h1></div>
-        <div class="card-body text-danger "><table class="table shadow bg bg-light text-success">
+        <div class="card-body text-danger "><table class="table shadow bg bg-dark text-success">
             <tr>
                 <td>TEMP</td>
                 <td>{{ city_w.temp }} K</td>
