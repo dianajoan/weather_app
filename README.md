@@ -32,12 +32,20 @@ This is how you can install this project on your local machine, computer or just
 1. First, clone the repository to your local machine:
     git clone `https://github.com/dianajoan/weather_app.git`
 
+3. Install:
+    ```apt install python3-pip python3-django```
+    ```apt install python3-venv```
+    ```python3.8 -m venv my_env```
+    ```source my_env/bin/activate```
+    ```pip install django```
+    ```pip install requests```
+
 2. Create the database:
-    python manage.py migrate
+    ```python manage.py migrate```
 
 3. Finally, run the development server:
     
-    Type python manage.py runserver
+    Type ```python manage.py runserver```
     Open your fav browser and type `localhost:8080` to see our application home page
 
 ### Licenses
