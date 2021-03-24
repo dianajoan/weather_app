@@ -1,6 +1,6 @@
-# My Weather Application Project in Django
+# Weather Application Project in Django
 
-This is my professional and excellent way of making this awesome django app project which shows you the weather forecast in the whole entire countries.
+This shows the weather forecast in the whole entire countries.
 
 Contents
 
@@ -30,14 +30,14 @@ Information is all around but not accessed by all. Brilliance is evenly distribu
 This is how you can install this project on your local machine, computer or just environment.
 
 1. First, clone the repository to your local machine:
-    git clone `https://github.com/dianajoan/weather_app.git`
+    git clone ```https://github.com/dianajoan/weather_app.git```
 
 2. Create the database:
-    python manage.py migrate
+    ```python manage.py migrate```
 
 3. Finally, run the development server:
     
-    Type python manage.py runserver
+    Type ```python manage.py runserver```
     Open your fav browser and type `localhost:8080` to see our application home page
 
 ### Licenses
